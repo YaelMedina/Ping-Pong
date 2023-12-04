@@ -1,0 +1,59 @@
+/*body{
+  align-items: center;
+}*/
+#canvas-container {
+  text-align: center;
+}
+
+canvas {
+  margin: 0 auto;
+  /* Agrega cualquier otro estilo que necesites para el canvas */
+}
+
+.opciones {
+  background: #212f3c;
+}
+
+/**/
+.encabezado {
+  color: cornflowerblue;
+  text-align: center;
+}
+
+a:link,
+a:visited {
+  background-color: #2980b9;
+  color: white;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 15px;
+  margin-left: 45%;
+  width: 90px;
+  border-radius: 8px;
+}
+a:hover {
+  background-color: #212f3c;
+}
+
+a:active {
+  background-color: #c0392b;
+}
+
+/**/
+
+.parrafo {
+  text-align: center;
+  font-family: "Arial Narrow", Arial, sans-serif, "Franklin Gothic Medium";
+  font-size: 24px;
+  color: azure;
+}
+
+/*.contenedor{
+  background-color: black;
+  display:grid;
+  align-items: center;
+  width: 1080;
+  height: 569;
+}*/

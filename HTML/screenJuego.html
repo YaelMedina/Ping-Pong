@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/Imagenes/Screenplay.jpg" />
+    <link rel="stylesheet" href="/StyleCSS/Style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <title>Ping Pong</title>
+  </head>
+
+  <body>
+    <!--   class="contenedor", id="tutorial" esto va dentro de la etiqueta de canvas -->
+    <div id="canvas-container">
+      <!-- Contenedor del canvas -->
+      <canvas></canvas>
+    </div>
+
+    <script src="./JS/Ai.js"></script>
+
+    <!-- Referencia a Socket.io -->
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+      const socket = io();
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        if (input.value) {
+          socket.emit("chat message", input.value);
+          input.value = "";
+        }
+      });
+    </script>
+  </body>
+</html>
